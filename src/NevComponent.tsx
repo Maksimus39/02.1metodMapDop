@@ -9,6 +9,7 @@ type CarsType = {
 }
 export const NevComponent = (props: NevComponentType) => {
     return (
+
             <tr>
                 {props.topCars.map((objectFromCarsArray, index) => {
                     return (
